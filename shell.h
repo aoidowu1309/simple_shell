@@ -25,6 +25,7 @@ extern char **environ;
  * @value: environment value
  * @next: points to the next node
  */
+
 typedef struct environment_s
 {
 		char *name;   /* ex: PATH */
@@ -39,6 +40,7 @@ typedef struct environment_s
  * @buffer: buffer
  * @command: command name
  */
+
 typedef struct appData_s
 {
 		char **arguments;
@@ -56,6 +58,7 @@ typedef struct appData_s
  * @msg: pointer to error message
  * @size: error message length.
  */
+
 typedef struct errorMessage_s
 {
 		int code;
@@ -67,11 +70,13 @@ typedef struct errorMessage_s
  * @command: flag string
  * @func: pointer to func
  */
+
 typedef struct customCommand_s
 {
 		char *commandName;
 			void (*func)(appData_t *);
 } customCommand_t;
+
 environment_t *_addEnvNodeEnd(
 			environment_t **prmHeadNode,
 				char *prmGlobal
