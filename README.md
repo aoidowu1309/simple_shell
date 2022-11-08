@@ -72,4 +72,3 @@ The wait system call (man 2 wait) suspends execution of the calling process unti
 
 Exercise: fork + wait + execve Write a programme that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
 
-
