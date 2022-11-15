@@ -8,11 +8,10 @@ It is the creation of a simple unix command interpreter that provides a user int
 .SH
 .SH DESCRIPTION
 we use the following files to build our own simple shell:
-.PP
--pid.c (Write a program that prints the PID of the parent process.
+		.PP-pid.c (Write a program that prints the PID of the parent process.
 		.PP max_value_processID - Write a shell script that prints the maximum value a process ID can be.
 		.PP-2.1-argument.c - (Write a program that prints all the arguments, without using ac.)
-		.PP2.0.read_line.c - (getline) Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+		.PP-2.0.read_line.c - (getline) Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
 		.PP-2.0.cmd_line_to_av.c - (strtok) Write a function that splits a string and returns an array of each word of the string.
 		.PP-3.0.execve.c - Executing a program. The system call execve allows a process to execute another program (man 2 execve).
 		.PP-4-fork.c - The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork).
