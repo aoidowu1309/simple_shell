@@ -1,12 +1,10 @@
-#include <stdio.h>
-#include <unistd.h>
-
+#include "shell.h"
 /**
- * main - fork example
+ * _fork1 - fork example
  *
  * Return: Always 0.
  */
-int main(void)
+int _fork1(void)
 {
 	pid_t my_pid;
 	pid_t child_pid;

@@ -1,13 +1,9 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-
+#include "shell.h"
 /**
  * main - exercise: fork + wait + execve
  * Return: Always 0
  */
-int main(void)
+int _fork_wait_execve(void)
 {
 	pid_t my_pid;
 	pid_t child_pid = 1;

@@ -1,13 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "shell.h"
 
 /**
- * main-prototype
+ * _getline - prototype
  *
  * Return: 0
  */
-int main(void)
+int _getline(void)
 {
 	char *buffer = malloc(1024);
 	size_t len = 1024;

@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "shell.h"
 
 /**
  * main - PID
  *
  * Return: Always 0.
  */
-int main(void)
+int _getpid(void)
 {
 	pid_t my_pid;
 
